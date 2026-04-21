@@ -1,9 +1,10 @@
 import OpenAI from 'openai';
 import { NextRequest } from 'next/server';
 
-const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
-
 export async function POST(req: NextRequest) {
+  // ビルド時ではなくリクエスト時に初期化する
+  const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+
   const { jobDescription, language, resumeData } = await req.json() as {
     jobDescription: string;
     language: 'en' | 'ja';
