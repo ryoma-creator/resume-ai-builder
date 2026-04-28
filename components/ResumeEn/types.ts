@@ -68,11 +68,11 @@ export const DEFAULT_EN: ResumeEnData = {
     'Created AI Resume Builder with job-description-driven CV customization via GPT\n' +
     'Passed IBM Philippines Bilingual Application Developer selection — all 6 stages, entirely in English',
   projects:
-    'IoT Fleet Monitor — Real-time dashboard for 6 SIM-equipped IoT devices; Supabase Realtime + GPT anomaly detection; built in 1 day | https://iot-monitor-brown.vercel.app\n' +
-    'AI Internal Helpdesk SaaS — RAG-powered Q&A over company PDFs; pgvector semantic search + GPT-4 | https://ai-helpdesk-pi.vercel.app\n' +
-    'AI Intelligence Monitor — Auto-collects AI news from 5 RSS feeds, GPT summarizes & scores importance 1–10; EN/JA toggle | https://ai-intelligence-monitor.vercel.app\n' +
-    'Support AI Dashboard — Auto-classifies tickets, rates urgency, detects sentiment, drafts replies | https://support-ai-dashboard.vercel.app\n' +
-    'AI Resume Builder — Paste job description → GPT generates tailored resume + cover letter outline (this app)',
+    'IoT Fleet Monitor — Real-time dashboard for 6 SIM-equipped IoT devices; Supabase Realtime + GPT anomaly detection; built in 1 day | iot-monitor-brown.vercel.app\n' +
+    'AI Internal Helpdesk SaaS — RAG-powered Q&A over company PDFs; pgvector semantic search + GPT-4 | ai-helpdesk-pi.vercel.app\n' +
+    'AI Intelligence Monitor — Auto-collects AI news from 5 RSS feeds, GPT summarizes & scores importance 1–10; EN/JA toggle | ai-intelligence-monitor.vercel.app\n' +
+    'Support AI Dashboard — Auto-classifies tickets, rates urgency, detects sentiment, drafts replies | support-ai-dashboard.vercel.app\n' +
+    'AI Resume Builder — Paste job description → GPT generates tailored resume + cover letter outline | resume-builder-kohl-psi.vercel.app',
   edu1: 'Meiji Gakuin University',
   edu1Degree: 'Bachelor of Law',
   edu1Period: 'Apr 2012 – Mar 2018',
