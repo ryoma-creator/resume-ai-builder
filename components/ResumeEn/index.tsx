@@ -16,7 +16,7 @@ export default function ResumeEn() {
     <div>
       <style>{`
         @media print {
-          @page { size: A4 portrait; margin: 0; }
+          @page { size: A4 portrait; margin: 12mm 10mm; }
           body * { visibility: hidden; }
           .resume-en-page, .resume-en-page * { visibility: visible; }
           .resume-en-page {
@@ -24,12 +24,9 @@ export default function ResumeEn() {
             left: 0 !important;
             top: 0 !important;
             margin: 0 !important;
-            padding: 4mm 7mm !important;
+            padding: 0 !important;
             box-shadow: none !important;
-            /* zoom はtransformと違い実際のレイアウトを縮小するため改ページに効く */
-            /* 222mm × zoom(0.945) = 210mm でA4幅ちょうどに収める */
-            width: 222mm !important;
-            zoom: 0.945;
+            width: 190mm !important;
           }
           .no-print { display: none !important; }
         }

@@ -11,13 +11,6 @@ interface Props {
 export default function EducationCerts({ data, set }: Props) {
   return (
     <>
-      {/* プロジェクト */}
-      <div style={{ marginBottom: '10px' }}>
-        <div style={sectionTitle}>Key Projects</div>
-        <hr style={{ border: 'none', borderTop: '1px solid #ccc', marginBottom: '5px' }} />
-        <EditableBullets value={data.projects} onChange={set('projects')} style={{ fontSize: '9.5pt', lineHeight: 1.6 }} />
-      </div>
-
       {/* 学歴 */}
       <div style={{ marginBottom: '10px' }}>
         <div style={sectionTitle}>Education</div>
