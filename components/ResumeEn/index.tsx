@@ -17,12 +17,21 @@ export default function ResumeEn() {
       <style>{`
         @media print {
           @page { size: A4 portrait; margin: 0; }
+          body * { visibility: hidden; }
+          .resume-en-page, .resume-en-page * { visibility: visible; }
           .resume-en-page {
+            position: absolute !important;
+            left: 0 !important;
+            top: 0 !important;
             margin: 0 !important;
+            padding: 5mm 8mm !important;
             box-shadow: none !important;
-            width: 210mm !important;
-            min-height: 297mm !important;
+            /* 82%縮小でA4(297mm)に収める: 256mm × 0.82 = 210mm */
+            width: 256mm !important;
+            transform-origin: top left !important;
+            transform: scale(0.82) !important;
           }
+          .no-print { display: none !important; }
         }
       `}</style>
       {/* 印刷ボタン */}
@@ -47,7 +56,7 @@ export default function ResumeEn() {
           minHeight: '297mm',
           margin: '24px auto',
           background: 'white',
-          padding: '20mm 18mm',
+          padding: '14mm 16mm',
           boxShadow: '0 2px 12px rgba(0,0,0,0.1)',
           boxSizing: 'border-box',
           fontFamily: 'Arial, "Helvetica Neue", sans-serif',
@@ -57,9 +66,9 @@ export default function ResumeEn() {
         <Header data={data} set={set} />
 
         {/* 職務要約 */}
-        <div style={{ marginBottom: '14px' }}>
+        <div style={{ marginBottom: '10px' }}>
           <div style={sectionTitle}>Professional Summary</div>
-          <hr style={{ border: 'none', borderTop: '1px solid #ccc', marginBottom: '8px' }} />
+          <hr style={{ border: 'none', borderTop: '1px solid #ccc', marginBottom: '5px' }} />
           <EditableText
             value={data.summary}
             onChange={set('summary')}

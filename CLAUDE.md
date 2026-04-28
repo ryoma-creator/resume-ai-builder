@@ -1,5 +1,6 @@
 @AGENTS.md
 @SPEC.md
+@RYOMA_GROWTH.md
 
 # Resume Builder — Claude向け指示
 

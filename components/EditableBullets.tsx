@@ -15,7 +15,7 @@ export default function EditableBullets({ value, onChange, style }: Props) {
   useEffect(() => {
     if (!containerRef.current) return;
     const lis = Array.from(containerRef.current.querySelectorAll('li'));
-    const lines = value.split('\n').filter((b) => b.trim());
+    const lines = (value ?? '').split('\n').filter((b) => b.trim());
     if (lis.length !== lines.length) return;
     lis.forEach((li, i) => {
       if (document.activeElement !== li) li.textContent = lines[i];
@@ -30,7 +30,7 @@ export default function EditableBullets({ value, onChange, style }: Props) {
     onChange(lines.join('\n'));
   }, [onChange]);
 
-  const lines = value.split('\n').filter((b) => b.trim());
+  const lines = (value ?? '').split('\n').filter((b) => b.trim());
 
   return (
     <ul ref={containerRef} style={{ margin: 0, paddingLeft: '18px', lineHeight: 1.5, ...style }}>

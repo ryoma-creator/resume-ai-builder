@@ -17,7 +17,7 @@ function ExpEntry({
   onLocation: (v: string) => void; onBullets: (v: string) => void;
 }) {
   return (
-    <div style={{ marginBottom: '12px' }}>
+    <div style={{ marginBottom: '8px' }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
         <div>
           <EditableText value={company} onChange={onCompany} style={{ fontWeight: 700, fontSize: '11pt' }} />
@@ -36,9 +36,9 @@ function ExpEntry({
 
 export default function Experience({ data, set }: Props) {
   return (
-    <div style={{ marginBottom: '14px' }}>
+    <div style={{ marginBottom: '10px' }}>
       <div style={sectionTitle}>Work Experience</div>
-      <hr style={{ border: 'none', borderTop: '1px solid #ccc', marginBottom: '8px' }} />
+      <hr style={{ border: 'none', borderTop: '1px solid #ccc', marginBottom: '5px' }} />
       <ExpEntry
         company={data.exp1Company} title={data.exp1Title}
         period={data.exp1Period} location={data.exp1Location} bullets={data.exp1Bullets}

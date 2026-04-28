@@ -17,7 +17,7 @@ export default function Header({ data, set }: Props) {
           <EditableText
             value={data.name}
             onChange={set('name')}
-            style={{ fontSize: '26pt', fontWeight: 700, display: 'block', lineHeight: 1.1 }}
+            style={{ fontSize: '22pt', fontWeight: 700, display: 'block', lineHeight: 1.1 }}
           />
           <EditableText
             value={data.jobTitle}

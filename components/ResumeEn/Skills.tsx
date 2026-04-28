@@ -7,11 +7,11 @@ interface Props {
 }
 
 export const sectionTitle: React.CSSProperties = {
-  fontSize: '11pt',
+  fontSize: '10pt',
   fontWeight: 700,
   textTransform: 'uppercase',
-  letterSpacing: '1px',
-  marginBottom: '6px',
+  letterSpacing: '0.5px',
+  marginBottom: '4px',
   color: '#1a1a2e',
 };
 
@@ -19,9 +19,9 @@ const label: React.CSSProperties = { fontWeight: 600, color: '#333', minWidth: '
 
 export default function Skills({ data, set }: Props) {
   return (
-    <div style={{ marginBottom: '14px' }}>
+    <div style={{ marginBottom: '10px' }}>
       <div style={sectionTitle}>Technical Skills</div>
-      <hr style={{ border: 'none', borderTop: '1px solid #ccc', marginBottom: '8px' }} />
+      <hr style={{ border: 'none', borderTop: '1px solid #ccc', marginBottom: '5px' }} />
       {(
         [
           ['skillsFrontend', 'Frontend'],
@@ -31,7 +31,7 @@ export default function Skills({ data, set }: Props) {
           ['skillsLanguages', 'Languages'],
         ] as [keyof ResumeEnData, string][]
       ).map(([key, lbl]) => (
-        <div key={key} style={{ fontSize: '10pt', marginBottom: '4px' }}>
+        <div key={key} style={{ fontSize: '9.5pt', marginBottom: '2px' }}>
           <span style={label}>{lbl}:</span>
           <EditableText value={data[key]} onChange={set(key)} />
         </div>

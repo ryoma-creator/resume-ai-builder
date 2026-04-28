@@ -11,10 +11,17 @@ interface Props {
 export default function EducationCerts({ data, set }: Props) {
   return (
     <>
+      {/* プロジェクト */}
+      <div style={{ marginBottom: '10px' }}>
+        <div style={sectionTitle}>Key Projects</div>
+        <hr style={{ border: 'none', borderTop: '1px solid #ccc', marginBottom: '5px' }} />
+        <EditableBullets value={data.projects} onChange={set('projects')} style={{ fontSize: '9.5pt', lineHeight: 1.6 }} />
+      </div>
+
       {/* 学歴 */}
-      <div style={{ marginBottom: '14px' }}>
+      <div style={{ marginBottom: '10px' }}>
         <div style={sectionTitle}>Education</div>
-        <hr style={{ border: 'none', borderTop: '1px solid #ccc', marginBottom: '8px' }} />
+        <hr style={{ border: 'none', borderTop: '1px solid #ccc', marginBottom: '5px' }} />
         <div style={{ marginBottom: '8px' }}>
           <div style={{ display: 'flex', justifyContent: 'space-between' }}>
             <EditableText value={data.edu1} onChange={set('edu1')} style={{ fontWeight: 700, fontSize: '11pt' }} />
@@ -30,9 +37,9 @@ export default function EducationCerts({ data, set }: Props) {
       </div>
 
       {/* 資格・実績 */}
-      <div style={{ marginBottom: '14px' }}>
+      <div style={{ marginBottom: '10px' }}>
         <div style={sectionTitle}>Certifications & Achievements</div>
-        <hr style={{ border: 'none', borderTop: '1px solid #ccc', marginBottom: '8px' }} />
+        <hr style={{ border: 'none', borderTop: '1px solid #ccc', marginBottom: '5px' }} />
         <EditableBullets value={data.certs} onChange={set('certs')} style={{ fontSize: '10pt', lineHeight: 1.6 }} />
       </div>
     </>
