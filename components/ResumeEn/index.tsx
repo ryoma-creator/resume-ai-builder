@@ -26,10 +26,10 @@ export default function ResumeEn() {
             margin: 0 !important;
             padding: 5mm 8mm !important;
             box-shadow: none !important;
-            /* 82%縮小でA4(297mm)に収める: 256mm × 0.82 = 210mm */
-            width: 256mm !important;
+            /* 94%縮小でA4(297mm)に収める: 223mm × 0.94 = 210mm */
+            width: 223mm !important;
             transform-origin: top left !important;
-            transform: scale(0.82) !important;
+            transform: scale(0.94) !important;
           }
           .no-print { display: none !important; }
         }
