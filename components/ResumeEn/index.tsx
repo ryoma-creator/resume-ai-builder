@@ -16,19 +16,19 @@ export default function ResumeEn() {
     <div>
       <style>{`
         @media print {
-          @page { size: A4 portrait; margin: 12mm 10mm; }
-          body * { visibility: hidden; }
-          .resume-en-page, .resume-en-page * { visibility: visible; }
+          @page { size: A4 portrait; margin: 10mm 12mm; }
+          nav { display: none !important; }
+          .no-print { display: none !important; }
+          body { background: white !important; margin: 0 !important; padding: 0 !important; }
+          main { max-width: 100% !important; padding: 0 !important; margin: 0 !important; }
           .resume-en-page {
-            position: absolute !important;
-            left: 0 !important;
-            top: 0 !important;
+            position: static !important;
+            width: 100% !important;
+            min-height: auto !important;
             margin: 0 !important;
             padding: 0 !important;
             box-shadow: none !important;
-            width: 190mm !important;
           }
-          .no-print { display: none !important; }
         }
       `}</style>
       {/* 印刷ボタン */}
