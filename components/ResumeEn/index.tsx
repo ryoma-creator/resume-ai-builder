@@ -24,12 +24,12 @@ export default function ResumeEn() {
             left: 0 !important;
             top: 0 !important;
             margin: 0 !important;
-            padding: 5mm 8mm !important;
+            padding: 4mm 7mm !important;
             box-shadow: none !important;
-            /* 94%縮小でA4(297mm)に収める: 223mm × 0.94 = 210mm */
-            width: 223mm !important;
-            transform-origin: top left !important;
-            transform: scale(0.94) !important;
+            /* zoom はtransformと違い実際のレイアウトを縮小するため改ページに効く */
+            /* 222mm × zoom(0.945) = 210mm でA4幅ちょうどに収める */
+            width: 222mm !important;
+            zoom: 0.945;
           }
           .no-print { display: none !important; }
         }
