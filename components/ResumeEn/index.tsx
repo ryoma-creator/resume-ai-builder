@@ -17,14 +17,32 @@ export default function ResumeEn() {
       <style>{`
         @media print {
           @page { size: A4 portrait; margin: 10mm 12mm; }
-          nav { display: none !important; }
-          .no-print { display: none !important; }
-          body { background: white !important; margin: 0 !important; padding: 0 !important; }
-          main { max-width: 100% !important; padding: 0 !important; margin: 0 !important; }
+          nav, .no-print { display: none !important; }
+          html {
+            height: auto !important;
+          }
+          body {
+            display: block !important;
+            height: auto !important;
+            min-height: 0 !important;
+            background: white !important;
+            margin: 0 !important;
+            padding: 0 !important;
+          }
+          main {
+            display: block !important;
+            height: auto !important;
+            min-height: 0 !important;
+            max-width: 100% !important;
+            padding: 0 !important;
+            margin: 0 !important;
+          }
           .resume-en-page {
+            display: block !important;
             position: static !important;
             width: 100% !important;
-            min-height: auto !important;
+            height: auto !important;
+            min-height: 0 !important;
             margin: 0 !important;
             padding: 0 !important;
             box-shadow: none !important;
