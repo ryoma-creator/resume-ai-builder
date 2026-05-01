@@ -79,7 +79,7 @@ export const DEFAULT_EN: ResumeEnData = {
   edu2: 'Study Abroad — Denmark & Philippines',
   edu2Detail: '2017 | English-immersive environment, international cross-cultural experience',
   certs:
-    'IBM Philippines Bilingual App Developer — passed all 6 selection stages in English (2025)\n' +
+    'IBM Philippines Bilingual App Developer (Frontend) — passed all 6 selection stages in English (Sep 2025)\n' +
     'The Odin Project — JavaScript & React tracks (Dec 2024)\n' +
     'English: 3,000+ live conversation sessions (~90,000 min) — full-time operations at Accenture Philippines',
 };
