@@ -32,20 +32,20 @@ export type ResumeEnData = {
 
 export const DEFAULT_EN: ResumeEnData = {
   name: 'Ryoma Taguchi',
-  jobTitle: 'AI Product Engineer',
+  jobTitle: 'AI-Driven Frontend Engineer',
   email: 'ryoma.t.engineer@gmail.com',
   phone: '+81-80-5519-4585',
   location: 'Yokohama, Kanagawa, Japan (Open to Remote)',
   portfolio: 'https://ryoma-ai-portfolio.vercel.app/',
   summary:
-    'AI Product Engineer with hands-on experience building AI-powered web applications and international business background at Accenture Philippines. ' +
-    'Integrates LLM APIs (OpenAI, Claude) with React / Next.js / TypeScript to ship user-facing products. ' +
+    'AI-Driven Frontend Engineer with hands-on experience building full-stack AI-powered web applications and international business background at Accenture Philippines. ' +
+    'Integrates LLM APIs (OpenAI, Claude) with React / Next.js / TypeScript to ship production-ready user-facing products. ' +
     'Passed all 6 stages of IBM Philippines Bilingual Application Developer selection (conducted entirely in English). ' +
     'Bridges business strategy and technical implementation with strong cross-cultural communication.',
   skillsFrontend: 'React, Next.js, TypeScript, JavaScript, HTML5, CSS3, Tailwind CSS',
   skillsAI: 'OpenAI API (gpt-4o-mini), Claude API, Prompt Engineering, LLM Integration, AI Agent Design',
   skillsBackend: 'Node.js, REST API, Supabase, PostgreSQL (fundamentals)',
-  skillsTools: 'Git, GitHub, Vercel, Docker, Figma',
+  skillsTools: 'Git, GitHub, Vercel, Docker, Webpack, Vite, Figma',
   skillsLanguages: 'Japanese (native), English (professional working proficiency — full-time operations at Accenture Philippines, 3,000+ live conversation sessions, IBM 6-round technical selection)',
   exp1Company: 'Accenture Inc.',
   exp1Title: 'Bilingual IT Implementation Analyst (Japanese / English)',
@@ -57,13 +57,13 @@ export const DEFAULT_EN: ResumeEnData = {
     'Reduced onboarding period from 3 months to 1 month through documentation & process optimization\n' +
     'Coordinated between Japan, China, and PH IT teams to establish cross-border operational workflows\n' +
     'Handled English client meetings, stakeholder communications, and process documentation',
-  exp2Company: 'Independent — AI Product Development',
-  exp2Title: 'AI Product Engineer (Self-directed)',
+  exp2Company: 'Independent AI Projects',
+  exp2Title: 'AI-Driven Frontend Engineer (Self-directed)',
   exp2Period: 'Mar 2024 – Present',
   exp2Location: '',
   exp2Bullets:
-    'Shipped 6+ AI-powered web applications independently using Claude Code and OpenAI API\n' +
-    'Built IoT Fleet Monitor (real-time Supabase Realtime + GPT anomaly detection) in 1 day as interview demo\n' +
+    'Built and shipped 6+ production-grade React / Next.js apps with LLM integrations (OpenAI, Claude API), deployed on Vercel\n' +
+    'Built IoT Fleet Monitor — real-time dashboard (Supabase Realtime + GPT anomaly detection) in 1 day as interview demo\n' +
     'Developed RAG-based internal helpdesk SaaS using pgvector for semantic document Q&A\n' +
     'Created AI Resume Builder with job-description-driven CV customization via GPT\n' +
     'Passed IBM Philippines Bilingual Application Developer selection — all 6 stages, entirely in English',

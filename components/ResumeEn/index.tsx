@@ -60,6 +60,12 @@ export default function ResumeEn() {
         >
           🖨 Print / Save PDF
         </button>
+        <button
+          onClick={() => { if (confirm('デフォルトにリセットしますか？')) { localStorage.removeItem('resume-en-data'); window.location.reload(); } }}
+          style={{ padding: '8px 14px', background: 'white', color: '#888', border: '1px solid #ddd', borderRadius: '6px', cursor: 'pointer', fontSize: '12px' }}
+        >
+          リセット
+        </button>
         <span style={{ fontSize: '12px', color: '#888' }}>各テキストをクリックして編集できます。変更は自動保存されます。</span>
       </div>
 
