@@ -38,8 +38,9 @@ export const DEFAULT_EN: ResumeEnData = {
   location: 'Yokohama, Kanagawa, Japan (Open to Remote)',
   portfolio: 'https://ryoma-ai-portfolio.vercel.app/',
   summary:
-    'AI-Driven Frontend Engineer specializing in production LLM integrations (OpenAI, Claude) with React / Next.js / TypeScript. ' +
-    'Ex-Accenture bilingual IT consultant with cross-border project leadership across Japan, China, and Philippines. ' +
+    'Frontend engineer with hands-on experience building and deploying full-stack web applications using React, Next.js, and TypeScript. ' +
+    'Specializes in integrating LLM APIs (OpenAI, Claude) into production-grade products. ' +
+    'Ex-Accenture bilingual IT consultant; cross-border project leadership across Japan, China, and Philippines. ' +
     'Passed all 6 stages of IBM Philippines Bilingual Developer selection conducted entirely in English.',
   skillsAI: 'OpenAI API, Claude API, Prompt Engineering, RAG, AI Agent Design, pgvector',
   skillsFrontend: 'Next.js, React, TypeScript, Tailwind CSS, JavaScript, HTML5, CSS3',
