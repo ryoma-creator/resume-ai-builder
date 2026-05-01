@@ -46,7 +46,7 @@ export const DEFAULT_EN: ResumeEnData = {
   skillsFrontend: 'Next.js, React, TypeScript, Tailwind CSS, JavaScript, HTML5, CSS3',
   skillsBackend: 'Node.js, REST API, Supabase, PostgreSQL, Prisma ORM',
   skillsTools: 'Git, GitHub, Vercel, Docker, Webpack, Vite, Figma',
-  skillsLanguages: 'Japanese (native), English (professional working proficiency — full-time operations at Accenture Philippines, 3,000+ live conversation sessions, IBM 6-round technical selection)',
+  skillsLanguages: 'Japanese (native), English — Professional (Accenture PH full-time; IBM 6-stage bilingual selection; 3,000+ live sessions)',
   exp1Company: 'Accenture Inc.',
   exp1Title: 'Bilingual IT Implementation Analyst (Japanese / English)',
   exp1Period: 'Feb 2022 – Feb 2024',
