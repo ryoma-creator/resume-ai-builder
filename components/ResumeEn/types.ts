@@ -34,7 +34,7 @@ export const DEFAULT_EN: ResumeEnData = {
   name: 'Ryoma Taguchi',
   jobTitle: 'AI-Driven Frontend Engineer',
   email: 'ryoma.t.engineer@gmail.com',
-  phone: '+81-80-5519-4585',
+  phone: '+63-916-930-0172',
   location: 'Yokohama, Kanagawa, Japan (Open to Remote)',
   portfolio: 'https://ryoma-ai-portfolio.vercel.app/',
   summary:

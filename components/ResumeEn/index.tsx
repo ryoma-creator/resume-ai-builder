@@ -16,7 +16,7 @@ export default function ResumeEn() {
     <div>
       <style>{`
         @media print {
-          @page { size: A4 portrait; margin: 10mm 12mm; }
+          @page { size: A4 portrait; margin: 8mm 10mm; }
           nav, .no-print { display: none !important; }
           html {
             height: auto !important;
@@ -87,14 +87,14 @@ export default function ResumeEn() {
         <Header data={data} set={set} />
 
         {/* 職務要約 */}
-        <div style={{ marginBottom: '10px' }}>
+        <div style={{ marginBottom: '8px' }}>
           <div style={sectionTitle}>Professional Summary</div>
-          <hr style={{ border: 'none', borderTop: '1px solid #ccc', marginBottom: '5px' }} />
+          <hr style={{ border: 'none', borderTop: '1px solid #ccc', marginBottom: '4px' }} />
           <EditableText
             value={data.summary}
             onChange={set('summary')}
             multiline
-            style={{ fontSize: '10pt', lineHeight: 1.6, display: 'block' }}
+            style={{ fontSize: '10pt', lineHeight: 1.5, display: 'block' }}
           />
         </div>
 

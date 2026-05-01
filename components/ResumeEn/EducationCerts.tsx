@@ -12,7 +12,7 @@ export default function EducationCerts({ data, set }: Props) {
   return (
     <>
       {/* 学歴 */}
-      <div style={{ marginBottom: '10px' }}>
+      <div style={{ marginBottom: '8px' }}>
         <div style={sectionTitle}>Education</div>
         <hr style={{ border: 'none', borderTop: '1px solid #ccc', marginBottom: '5px' }} />
         <div style={{ marginBottom: '8px' }}>
