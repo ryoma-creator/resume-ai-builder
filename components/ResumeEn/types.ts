@@ -44,7 +44,7 @@ export const DEFAULT_EN: ResumeEnData = {
     'Bridges business strategy and technical implementation with strong cross-cultural communication.',
   skillsFrontend: 'React, Next.js, TypeScript, JavaScript, HTML5, CSS3, Tailwind CSS',
   skillsAI: 'OpenAI API (gpt-4o-mini), Claude API, Prompt Engineering, LLM Integration, AI Agent Design',
-  skillsBackend: 'Node.js, REST API, Supabase, PostgreSQL (fundamentals)',
+  skillsBackend: 'Node.js, REST API, Supabase, PostgreSQL, Prisma ORM',
   skillsTools: 'Git, GitHub, Vercel, Docker, Webpack, Vite, Figma',
   skillsLanguages: 'Japanese (native), English (professional working proficiency — full-time operations at Accenture Philippines, 3,000+ live conversation sessions, IBM 6-round technical selection)',
   exp1Company: 'Accenture Inc.',
@@ -62,11 +62,11 @@ export const DEFAULT_EN: ResumeEnData = {
   exp2Period: 'Mar 2024 – Present',
   exp2Location: '',
   exp2Bullets:
-    'Built and shipped 6+ production-grade React / Next.js apps with LLM integrations (OpenAI, Claude API), deployed on Vercel\n' +
-    'Built IoT Fleet Monitor — real-time dashboard (Supabase Realtime + GPT anomaly detection) in 1 day as interview demo\n' +
-    'Developed RAG-based internal helpdesk SaaS using pgvector for semantic document Q&A\n' +
-    'Created AI Resume Builder with job-description-driven CV customization via GPT\n' +
-    'Passed IBM Philippines Bilingual Application Developer selection — all 6 stages, entirely in English',
+    'Architected and deployed full-stack React / Next.js applications end-to-end — TypeScript, Prisma ORM, Supabase, REST API design — with OpenAI and Claude API integrations\n' +
+    'Built IoT Fleet Monitor: real-time anomaly detection dashboard (Supabase Realtime + GPT); delivered from zero to production in 1 day for a technical interview\n' +
+    'Developed RAG-based internal helpdesk SaaS — pgvector semantic search + GPT-4 over company PDFs, full backend design and Vercel deployment\n' +
+    'Built autonomous Sales Agent — AI-generated outreach emails + Vercel Cron scheduling, integrated with SMTP delivery\n' +
+    'Passed IBM Philippines Bilingual Application Developer selection — all 6 stages conducted entirely in English',
   projects:
     'IoT Fleet Monitor — Real-time dashboard for 6 SIM-equipped IoT devices; Supabase Realtime + GPT anomaly detection; built in 1 day | iot-monitor-brown.vercel.app\n' +
     'AI Internal Helpdesk SaaS — RAG-powered Q&A over company PDFs; pgvector semantic search + GPT-4 | ai-helpdesk-pi.vercel.app\n' +
