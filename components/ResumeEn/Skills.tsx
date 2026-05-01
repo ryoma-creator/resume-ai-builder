@@ -24,8 +24,8 @@ export default function Skills({ data, set }: Props) {
       <hr style={{ border: 'none', borderTop: '1px solid #ccc', marginBottom: '5px' }} />
       {(
         [
-          ['skillsFrontend', 'Frontend'],
           ['skillsAI', 'AI / LLM'],
+          ['skillsFrontend', 'Frontend'],
           ['skillsBackend', 'Backend'],
           ['skillsTools', 'Tools'],
           ['skillsLanguages', 'Languages'],

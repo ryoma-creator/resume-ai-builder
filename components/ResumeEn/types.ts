@@ -38,12 +38,11 @@ export const DEFAULT_EN: ResumeEnData = {
   location: 'Yokohama, Kanagawa, Japan (Open to Remote)',
   portfolio: 'https://ryoma-ai-portfolio.vercel.app/',
   summary:
-    'AI-Driven Frontend Engineer with hands-on experience building full-stack AI-powered web applications and international business background at Accenture Philippines. ' +
-    'Integrates LLM APIs (OpenAI, Claude) with React / Next.js / TypeScript to ship production-ready user-facing products. ' +
-    'Passed all 6 stages of IBM Philippines Bilingual Application Developer selection (conducted entirely in English). ' +
-    'Bridges business strategy and technical implementation with strong cross-cultural communication.',
-  skillsFrontend: 'React, Next.js, TypeScript, JavaScript, HTML5, CSS3, Tailwind CSS',
-  skillsAI: 'OpenAI API (gpt-4o-mini), Claude API, Prompt Engineering, LLM Integration, AI Agent Design',
+    'AI-Driven Frontend Engineer specializing in production LLM integrations (OpenAI, Claude) with React / Next.js / TypeScript. ' +
+    'Ex-Accenture bilingual IT consultant with cross-border project leadership across Japan, China, and Philippines. ' +
+    'Passed all 6 stages of IBM Philippines Bilingual Developer selection conducted entirely in English.',
+  skillsAI: 'OpenAI API, Claude API, Prompt Engineering, RAG, AI Agent Design, pgvector',
+  skillsFrontend: 'Next.js, React, TypeScript, Tailwind CSS, JavaScript, HTML5, CSS3',
   skillsBackend: 'Node.js, REST API, Supabase, PostgreSQL, Prisma ORM',
   skillsTools: 'Git, GitHub, Vercel, Docker, Webpack, Vite, Figma',
   skillsLanguages: 'Japanese (native), English (professional working proficiency — full-time operations at Accenture Philippines, 3,000+ live conversation sessions, IBM 6-round technical selection)',
@@ -79,7 +78,7 @@ export const DEFAULT_EN: ResumeEnData = {
   edu2: 'Study Abroad — Denmark & Philippines',
   edu2Detail: '2017 | English-immersive environment, international cross-cultural experience',
   certs:
+    'IBM Philippines Bilingual App Developer — passed all 6 selection stages in English (2025)\n' +
     'The Odin Project — JavaScript & React tracks (Dec 2024)\n' +
-    'TOEIC 750 (2019) — supplemented by 3,000+ live English sessions (~90,000 min total)\n' +
-    'IBM Philippines Bilingual App Developer — passed all 6 selection stages in English (2025)',
+    'English: 3,000+ live conversation sessions (~90,000 min) — full-time operations at Accenture Philippines',
 };
