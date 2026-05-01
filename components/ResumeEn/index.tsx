@@ -6,6 +6,7 @@ import Skills from './Skills';
 import Experience from './Experience';
 import EducationCerts from './EducationCerts';
 import EditableText from '@/components/EditableText';
+import EditableBullets from '@/components/EditableBullets';
 import { sectionTitle } from './Skills';
 
 export default function ResumeEn() {
@@ -90,11 +91,10 @@ export default function ResumeEn() {
         <div style={{ marginBottom: '8px' }}>
           <div style={sectionTitle}>Professional Summary</div>
           <hr style={{ border: 'none', borderTop: '1px solid #ccc', marginBottom: '4px' }} />
-          <EditableText
+          <EditableBullets
             value={data.summary}
             onChange={set('summary')}
-            multiline
-            style={{ fontSize: '10pt', lineHeight: 1.5, display: 'block' }}
+            style={{ fontSize: '10pt', lineHeight: 1.5 }}
           />
         </div>
 

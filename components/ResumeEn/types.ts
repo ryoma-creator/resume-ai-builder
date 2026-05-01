@@ -38,10 +38,10 @@ export const DEFAULT_EN: ResumeEnData = {
   location: 'Yokohama, Kanagawa, Japan (Open to Remote)',
   portfolio: 'https://ryoma-ai-portfolio.vercel.app/',
   summary:
-    'Frontend engineer with hands-on experience building and deploying full-stack web applications using React, Next.js, and TypeScript. ' +
-    'Specializes in integrating LLM APIs (OpenAI, Claude) into production-grade products. ' +
-    'Ex-Accenture bilingual IT consultant; cross-border project leadership across Japan, China, and Philippines. ' +
-    'Passed all 6 stages of IBM Philippines Bilingual Developer selection conducted entirely in English.',
+    'Frontend engineer with hands-on experience building full-stack web applications using React, Next.js, and TypeScript\n' +
+    'Specializes in integrating LLM APIs (OpenAI, Claude) into production-grade products\n' +
+    'Ex-Accenture bilingual IT consultant with cross-border leadership across Japan, China, and Philippines\n' +
+    'Passed all 6 stages of IBM Philippines Bilingual Developer selection conducted entirely in English',
   skillsAI: 'OpenAI API, Claude API, Prompt Engineering, RAG, AI Agent Design, pgvector',
   skillsFrontend: 'Next.js, React, TypeScript, Tailwind CSS, JavaScript, HTML5, CSS3',
   skillsBackend: 'Node.js, REST API, Supabase, PostgreSQL, Prisma ORM',
@@ -50,10 +50,10 @@ export const DEFAULT_EN: ResumeEnData = {
   exp1Company: 'Accenture Inc.',
   exp1Title: 'Bilingual IT Implementation Analyst (Japanese / English)',
   exp1Period: 'Feb 2022 – Feb 2024',
-  exp1Location: 'Japan',
+  exp1Location: '',
   exp1Bullets:
     'Led bilingual (Japanese/English) HR system migration project across Japan, China, and Philippines\n' +
-    'Managed sub-team of 5 as bilingual team lead; all meetings, documentation, and stakeholder comms in English\n' +
+    'Led bilingual sub-team of 5; all meetings and stakeholder comms conducted in English\n' +
     'Reduced onboarding period from 3 months to 1 month through documentation & process optimization\n' +
     'Coordinated between Japan, China, and PH IT teams to establish cross-border operational workflows\n' +
     'Handled English client meetings, stakeholder communications, and process documentation',
@@ -80,6 +80,6 @@ export const DEFAULT_EN: ResumeEnData = {
   edu2Detail: '2017 | English-immersive environment, international cross-cultural experience',
   certs:
     'IBM Philippines Bilingual App Developer (Frontend) — passed all 6 selection stages in English (Sep 2025)\n' +
-    'The Odin Project — JavaScript & React tracks (Dec 2024)\n' +
+    'The Odin Project — Frontend & Backend tracks (Dec 2024) | theodinproject.com\n' +
     'English: 3,000+ live conversation sessions (~90,000 min) — full-time operations at Accenture Philippines',
 };
